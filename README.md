@@ -181,3 +181,9 @@ Notification queued
 - 🔊 Uses the standard system notification sound when `play_sound: true`.
 - 🤖 Uses bundled Topvisor robot image as default notification icon.
 - 🧰 Returns quickly while notifications are delivered in background queue.
+
+## Example 
+
+The AI agent is waiting for you:
+
+![example.png](./assets/example.png)
