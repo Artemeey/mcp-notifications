@@ -1,5 +1,9 @@
 # mcp-notifications
 
+[![npm version](https://img.shields.io/npm/v/@topvisor/mcp-notifications.svg)](https://www.npmjs.com/package/@topvisor/mcp-notifications)
+
+**npm package:** https://www.npmjs.com/package/@topvisor/mcp-notifications
+
 🚀 **Ship faster. Miss nothing.**
 
 `mcp-notifications` gives your MCP agent a real desktop voice: instant system notifications for completed tasks,
