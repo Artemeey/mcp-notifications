@@ -4,11 +4,12 @@
 
 🚀 **Ship faster. Miss nothing.**
 
-`mcp-notifications` gives your MCP agent a real desktop voice: instant system notifications for completed tasks,
-failures, and important updates.
+`mcp-notifications` lets your MCP agent send desktop notifications for completed tasks, failures, and important updates.
 
-No more checking logs every minute.  
-No more silent agent runs.  
+This is especially useful for console AI agents, because they usually have no built-in notifications by default.
+
+No more checking chats every minute.  
+No more silent agent responses.  
 Just visible, reliable feedback on your desktop. 🔔
 
 ## Common problem this solves
