@@ -1,0 +1,46 @@
+{
+	"name": "@topvisor/mcp-notifications",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "MCP server for desktop notifications over stdio",
+	"license": "MIT",
+	"author": "Topvisor",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/topvisor/mcp-notifications.git"
+	},
+	"bugs": {
+		"url": "https://github.com/topvisor/mcp-notifications/issues"
+	},
+	"homepage": "https://github.com/topvisor/mcp-notifications#readme",
+	"keywords": [
+		"mcp",
+		"model-context-protocol",
+		"notification"
+	],
+	"bin": {
+		"mcp-notifications": "./bin/mcp-notifications.mjs"
+	},
+	"files": [
+		"bin",
+		"src",
+		"assets",
+		"README.md"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"start": "node ./src/server.mjs",
+		"start:bin": "node ./bin/mcp-notifications.mjs"
+	},
+	"engines": {
+		"node": ">=20.0.0",
+		"npm": ">=10.0.0"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.18.0",
+		"node-notifier": "^10.0.1",
+		"zod": "^3.24.2"
+	}
+}
