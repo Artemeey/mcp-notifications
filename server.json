@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.topvisor/mcp-notifications",
+  "description": "MCP server for desktop notifications over stdio",
+  "repository": {
+    "url": "https://github.com/Artemeey/mcp-notifications",
+    "source": "github"
+  },
+  "version": "1.0.3",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@topvisor/mcp-notifications",
+      "version": "1.0.3",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
+
+

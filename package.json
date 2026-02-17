@@ -1,18 +1,19 @@
 {
 	"name": "@topvisor/mcp-notifications",
-	"version": "1.0.1",
+	"version": "1.0.3",
+	"mcpName": "io.github.topvisor/mcp-notifications",
 	"type": "module",
 	"description": "MCP server for desktop notifications over stdio",
-	"license": "MIT",
+	"license": "Apache-2.0",
 	"author": "Topvisor",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/topvisor/mcp-notifications.git"
+		"url": "https://github.com/Artemeey/mcp-notifications.git"
 	},
 	"bugs": {
-		"url": "https://github.com/topvisor/mcp-notifications/issues"
+		"url": "https://github.com/Artemeey/mcp-notifications/issues"
 	},
-	"homepage": "https://github.com/topvisor/mcp-notifications#readme",
+	"homepage": "https://github.com/Artemeey/mcp-notifications#readme",
 	"keywords": [
 		"mcp",
 		"model-context-protocol",
