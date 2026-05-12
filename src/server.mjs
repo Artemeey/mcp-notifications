@@ -18,15 +18,15 @@ server.tool(
 		app_id: z.string().min(1).optional(),
 	},
 	async ({ title, message, play_sound, icon, app_id }) => {
-		const playSound = play_sound ?? false;
-		const appId = app_id ?? process.env.MCP_NOTIFICATIONS_APP_ID;
+		const sound = play_sound ?? false;
+		const appID = app_id ?? process.env.MCP_NOTIFICATIONS_APP_ID;
 
 		enqueueNotification({
 			title,
 			message,
-			playSound,
+			sound,
 			icon,
-			appId,
+			appID,
 		});
 
 		return {

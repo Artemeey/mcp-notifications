@@ -145,6 +145,15 @@ Example:
 - If `app_id` is not set, Windows may show `SnoreToast` as the source.
 - You can pass `app_id` in each tool call, or set `MCP_NOTIFICATIONS_APP_ID` as an environment variable for the server.
 
+## Backend selection
+
+You can select notification transport via env `MCP_NOTIFICATIONS_BACKEND`:
+
+- `auto` (default): uses `powershell` in WSL if available, then `wsl-notify-send`, otherwise `node-notifier`
+- `powershell`: force `powershell.exe` Windows toast transport (recommended for WSL)
+- `wsl-notify-send`: force `wsl-notify-send` command
+- `node-notifier`: force `node-notifier` package
+
 ## Chat Prompts To Test In Codex
 
 Use these messages directly in chat:

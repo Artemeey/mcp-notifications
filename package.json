@@ -32,6 +32,7 @@
 		"access": "public"
 	},
 	"scripts": {
+		"test": "vitest run",
 		"start": "node ./src/server.mjs",
 		"start:bin": "node ./bin/mcp-notifications.mjs"
 	},
@@ -43,5 +44,9 @@
 		"@modelcontextprotocol/sdk": "^1.18.0",
 		"node-notifier": "^10.0.1",
 		"zod": "^3.24.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20.19.41",
+		"vitest": "^4.1.6"
 	}
 }
