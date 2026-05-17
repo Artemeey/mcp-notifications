@@ -149,9 +149,8 @@ Example:
 
 You can select notification transport via env `MCP_NOTIFICATIONS_BACKEND`:
 
-- `auto` (default): uses `powershell` in WSL if available, then `wsl-notify-send`, otherwise `node-notifier`
+- `auto` (default): uses `powershell` in WSL if available, otherwise `node-notifier`
 - `powershell`: force `powershell.exe` Windows toast transport (recommended for WSL)
-- `wsl-notify-send`: force `wsl-notify-send` command
 - `node-notifier`: force `node-notifier` package
 
 ## Chat Prompts To Test In Codex
