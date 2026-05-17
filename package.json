@@ -32,7 +32,6 @@
 		"access": "public"
 	},
 	"scripts": {
-		"test": "vitest run",
 		"start": "node ./src/server.mjs",
 		"start:bin": "node ./bin/mcp-notifications.mjs"
 	},
