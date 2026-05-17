@@ -32,6 +32,7 @@
 		"access": "public"
 	},
 	"scripts": {
+		"publish": "npm publish --access public",
 		"start": "node ./src/server.mjs",
 		"start:bin": "node ./bin/mcp-notifications.mjs"
 	},
