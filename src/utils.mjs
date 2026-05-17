@@ -1,4 +1,5 @@
 import path from 'node:path'
+import os from 'node:os'
 
 // Преобразует пути WSL (/mnt/c/...) в Windows-формат (C:\...).
 export const normalizeIconPath = (iconPath) => {
@@ -16,4 +17,4 @@ export const normalizeIconPath = (iconPath) => {
 // Определяет запуск в WSL, чтобы выбрать отправку через PowerShell-обёртку.
 export const isWsl = () =>
 	process.platform === 'linux' &&
-	(Boolean(process.env.WSL_DISTRO_NAME) || process.env.WSL_INTEROP !== undefined)
+	os.release().toLowerCase().includes('microsoft')

@@ -1,6 +1,6 @@
 {
 	"name": "@topvisor/mcp-notifications",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"mcpName": "io.github.topvisor/mcp-notifications",
 	"type": "module",
 	"description": "MCP server for desktop notifications over stdio",
